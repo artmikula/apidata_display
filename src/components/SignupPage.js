@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 
 function SignupPage({ Signup, error, setSignupPage }) {
@@ -56,8 +57,8 @@ function SignupPage({ Signup, error, setSignupPage }) {
               value={newUserData.passwordConfirm}
             />
           </div>
+          <input type="submit" value="Signup" />
         </div>
-        <input type="submit" name="submitNewUser" value="Signup" />
       </form>
     </div>
   );

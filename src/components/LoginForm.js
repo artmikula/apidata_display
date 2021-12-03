@@ -10,7 +10,6 @@ function LoginForm({ Login, error, setSignupPage }) {
 
   const signup = (e) => {
     e.preventDefault();
-    console.log("test");
     setSignupPage(true);
   };
 
